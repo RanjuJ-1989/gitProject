@@ -1,0 +1,107 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-10T18:17:29.141Z",
+        "line": 5,
+        "name": "Login the Page",
+        "description": "",
+        "id": "facebook-login;login-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4949417300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks url \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.gitProject_StepDefinition.Stepdefinition.user_clicks_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1025876900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email address \"ranjujayaputhiran89@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ranjujayaputhiran89@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.gitProject_StepDefinition.Stepdefinition.user_enter_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862895400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter Password \"pwd@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pwd@1234\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.gitProject_StepDefinition.Stepdefinition.user_enter_Password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3821549400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login",
+            "match": {
+              "location": "com.gitProject_StepDefinition.Stepdefinition.user_click_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/file.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]]
